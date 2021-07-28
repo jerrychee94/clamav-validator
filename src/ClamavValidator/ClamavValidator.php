@@ -5,7 +5,7 @@ namespace Sunspikes\ClamavValidator;
 use Illuminate\Contracts\Translation\Translator;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
-use Illuminate\Validation\Validator;
+use MM\CommonUtilities\Support\Validation\Validator;
 use Xenolope\Quahog\Client as QuahogClient;
 use Socket\Raw\Factory as SocketFactory;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
